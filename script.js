@@ -1,7 +1,7 @@
 const repoOwner = "rommycom";
 const repoName = "Nas-server";
 const branch = "ccfiles";
-const token = "YOUR_PERSONAL_ACCESS_TOKEN"; // Keep this safe!
+const token = "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"; // Keep this safe!
 
 async function fetchFiles() {
     const response = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/contents/?ref=${branch}`, {
