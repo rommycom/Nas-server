@@ -1,0 +1,42 @@
+:root {
+    --primary: #6200EE;
+    --background: #1E1E1E;
+    --text: #FFFFFF;
+}
+
+body {
+    background: var(--background);
+    color: var(--text);
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+#fileList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.file-item {
+    background: #2A2A2A;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button {
+    background: var(--primary);
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}￼Enter
